@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>File Upload and Download</title>
+</head>
+<body>
+    <h1>File Upload and Download</h1>
+    
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" accept=".xlsx, .xls">
+        <input type="submit" value="Upload">
+    </form>
+    
+    <br>
+    
+    <a href="/download">Download Database Details</a>
+</body>
+</html>
+
+
